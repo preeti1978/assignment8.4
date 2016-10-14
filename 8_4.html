@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+<body>
+<a href="www.acadgild.com id='acadgild'">jQuery Tutorial</a>
+<script>
+$(document).ready(function(){
+
+   //change hyperlink 
+   $('a:first').attr({  
+        href : 'http://www.w3resource.com/mysql/mysql-tutorials.php',  
+	});
+
+    //change text
+    $('a:first').text('new text');
+  
+});
+</script>
+</body>
+
